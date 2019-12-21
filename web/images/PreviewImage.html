@@ -1,0 +1,22 @@
+ <!----------------------------------------- pre visualizar imagem--------------------->
+            <input id="uploadImage" type="file" name="myPhoto" onchange="PreviewImage();" style="display: block;"  />
+            <img id="uploadPreview" style="width: 100%; height: 500px;" />
+			
+			
+
+<script>
+	function PreviewImage() {
+
+	$("#uploadPreview").show();
+	var oFReader = new FileReader();
+	oFReader.readAsDataURL(document.getElementById("uploadImage").files[0]);
+
+	oFReader.onload = function (oFREvent) {
+	document.getElementById("uploadPreview").src = oFREvent.target.result;
+	};
+	}
+
+</script>
+
+			<!----------------------------------------- pre visualizar imagem--------------------->
+        

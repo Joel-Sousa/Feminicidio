@@ -1,0 +1,106 @@
+*{
+    margin:0 auto;
+    padding:0;
+}
+
+body{
+    /*background-color: #8ea1f3;*/
+    /*background-image: url("../img/imgLogin/background.jpg");*/
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color:#111;
+    font-family: verdana;
+    font-size: 16px;
+}
+
+a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+
+.centerLogin{
+    width: 500px;
+    height: auto;
+    margin-top: 150px;
+    border:3px solid royalblue;
+    border-radius:3px;
+    background-color: #FFF;
+}
+
+.logoLogin{
+    background-color: #eee;
+    border-bottom: 3px solid #111;
+}
+
+.logoLogin img{
+    margin: 10px;
+    border:none;
+}
+
+.formularioLogin{
+    width:450px;
+    min-height: 35px;
+    border:1px solid #111;
+    margin-top:10px;
+}
+
+.formularioLogin img{
+    width:30px;
+    height:30px;
+    margin:5px;
+    vertical-align: middle;
+}
+
+.formularioLogin input{
+    outline: none;
+    border:none;
+    width:390px;
+    padding:5px;
+    font-family: verdana;
+    font-size: 18px;
+}
+
+.btnSubmitLogin{
+    width:100px;
+    padding:5px;
+    font-family: verdana;
+    font-size: 18px;
+    background-color: #4169e1;
+    border:none;
+    margin:10px;
+    margin-left: 25px;
+    color:#FFF;
+    cursor: pointer;
+    outline:none;
+}
+
+.btnSubmitLogin:hover{
+    background-color: #3300cc;
+}
+
+#log1{
+    position: relative; 
+    top: 50px; 
+    left: -10px;
+    width: 100px; 
+    height: 10px;
+    width: 200px;
+        
+    
+}
+
+#appearance-select{
+   -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+   -moz-appearance: none; /* Remove estilo padrão do FireFox */
+   appearance: none; /* Remove estilo padrão do FireFox*/
+   background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;  /* Imagem de fundo (Seta) */
+   background-position: 218px center;  /*Posição da imagem do background*/
+   width: 250px; /* Tamanho do select, maior que o tamanho da div "div-select" */
+   height:30px; /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */
+   border:1px solid #ddd;
+}
