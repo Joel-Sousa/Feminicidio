@@ -56,7 +56,7 @@ Class.forName(driverName);
  
         String username = "root";        //nome de um usuário de seu BD      
  
-        String password = "";      //sua senha de acesso
+        String password = "senha";      //sua senha de acesso
  
         connection = DriverManager.getConnection(url, username, password);
  
